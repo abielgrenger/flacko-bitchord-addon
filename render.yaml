@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flacko-bitchord-addon
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    # Render otomatis isi PORT dan RENDER_EXTERNAL_URL.
+    # server.js pakai RENDER_EXTERNAL_URL itu sebagai URL publik,
+    # jadi nggak perlu set PUBLIC_URL manual.

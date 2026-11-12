@@ -1,0 +1,15 @@
+{
+  "description": "FLACKO - Addon BitChord self-hosted. Mainkan koleksi FLAC / musik kamu sendiri di BitChord.",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "name": "flacko-bitchord-addon",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "version": "1.1.0"
+}
